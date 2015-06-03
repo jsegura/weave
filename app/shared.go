@@ -11,7 +11,7 @@ import (
 
 type option_set struct {
 	DisableS3 bool   `short:"n" long:"no-s3" description:"Disable publishing to S3"`
-	OnlyRun   string `short:"o" long:"only" description:"Only run specific confiugration"`
+	OnlyRun   string `short:"o" long:"only" description:"Only run specific configuration"`
 }
 
 var opts option_set
